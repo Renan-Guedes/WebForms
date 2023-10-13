@@ -67,10 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DiasDeVida.aspx" />
     <Content Include="tabuada.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DiasDeVida.aspx.cs">
+      <DependentUpon>DiasDeVida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DiasDeVida.aspx.designer.cs">
+      <DependentUpon>DiasDeVida.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tabuada.aspx.cs">
       <DependentUpon>tabuada.aspx</DependentUpon>
